@@ -1,9 +1,12 @@
-console.log('this is loaded');
-
 exports.spotify = {
   id: process.env.SPOTIFY_ID,
   secret: process.env.SPOTIFY_SECRET
 };
+
+// exports.spotify = {
+//   id: process.env.SPOTIFY_ID,
+//   secret: process.env.SPOTIFY_SECRET
+// };
 // SPOTIFY KEY
 // Spotify Client ID: 6beae4ac2a2043fa9df8f94e289dd93e
 // Spotify Client Secret: 7a35a9939976492996e1257830f67ac6

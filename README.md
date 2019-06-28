@@ -1,17 +1,26 @@
-# liri-node-app
-This time you'll need to include screenshots, a GIF, and/or a video showing us that you have the app working with no bugs. You can include these screenshots/GIFs or a link to a video in a `README.md` file.
+## LIRI
 
-In order to meet the Employer Competitive standards and be ready to show your application to employers, the `README.md` file should meet the following criteria:
-1. Clearly state the problem the app is trying to solve (i.e. what is it doing and why)
-2. Give a high-level overview of how the app is organized
-3. Give start-to-finish instructions on how to run the app
-4. Include screenshots, gifs or videos of the app functioning
-5. Contain a link to a deployed version of the app
-6. Clearly list the technologies used in the app
-7. State your role in the app development
+Liri takes a request from the user (via command line) and returns data about the subject they provide. The app uses the following APIs to provide this data.
 
-Because screenshots (and well-written READMEs) are extremely important in the context of GitHub, this will be part of the grading in this assignment.
+   * Node-Spotify-API
+   * Bands in Town Artist Events API
+   * OMDB API
 
-If you haven't written a markdown file yet, [click here for a rundown](https://guides.github.com/features/mastering-markdown/), or just take a look at the raw file of these instructions.
+Liri uses axios to pull from the APIs and Moment.js to parse dates into a readable format. The app was written using techniques demonstrated in our exercise files along with the knowledge provided by our outstanding UNC instructors.
 
-* Please submit the link to the Github Repository!
+## INSTRUCTIONS
+
+Navigate to the liri.js file and type the following commands in terminal or GitBash.
+
+   * `node liri concert-this (artist name)` - returns concert information about an artist.
+   * `node liri spotify-this-song (song name)` - returns song and album information about a song.
+   * `node liri movie-this (movie name)` - returns information about a movie.
+   * `node liri do-what-it-says` - calls one of liri's commands from a text file.
+   
+## SCREENSHOTS
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+## GITHUB
+
