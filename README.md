@@ -19,9 +19,10 @@ Navigate to the liri.js file and type the following commands in terminal or GitB
    
 ## SCREENSHOTS
 ![concert-this](screenshots/concert-this.PNG)
-![movie-this](https://github.com/keensteven/liri-node-app/screenshots/movie-this.PNG)
-![spotify-this-song](https://github.com/keensteven/liri-node-app/screenshots/spotify-song.PNG)
+![movie-this](screenshots/movie-this.PNG)
+![spotify-this-song](screenshots/spotify-song.PNG)
 
 ## GITHUB
 https://keensteven.github.io/liri-node-app/
+
 https://github.com/keensteven/liri-node-app.git
