@@ -18,9 +18,9 @@ Navigate to the liri.js file and type the following commands in terminal or GitB
    * `node liri do-what-it-says` - calls one of liri's commands from a text file.
    
 ## SCREENSHOTS
-![concert-this](https://github.com/keensteven/liri-node-app/screenshots/screenshots/concert-this.PNG)
-![movie-this](https://github.com/keensteven/liri-node-app/screenshots/screenshots/movie-this.PNG)
-![Image of Yaktocat](https://github.com/keensteven/liri-node-app/screenshots/spotify-song.PNG)
+![concert-this](screenshots/concert-this.PNG)
+![movie-this](https://github.com/keensteven/liri-node-app/screenshots/movie-this.PNG)
+![spotify-this-song](https://github.com/keensteven/liri-node-app/screenshots/spotify-song.PNG)
 
 ## GITHUB
 https://keensteven.github.io/liri-node-app/
