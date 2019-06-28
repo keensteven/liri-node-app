@@ -1,6 +1,6 @@
 ## LIRI
 
-Liri takes a request from the user (via command line) and returns data about the subject they provide. The app uses the following APIs to provide this data.
+Liri takes phrase typed by the user (via command line) and returns data about the subject they provide. The app uses the following APIs to provide this information.
 
    * Node-Spotify-API
    * Bands in Town Artist Events API
@@ -18,9 +18,10 @@ Navigate to the liri.js file and type the following commands in terminal or GitB
    * `node liri do-what-it-says` - calls one of liri's commands from a text file.
    
 ## SCREENSHOTS
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![concert-this](https://github.com/keensteven/liri-node-app/screenshots/screenshots/concert-this.PNG)
+![movie-this](https://github.com/keensteven/liri-node-app/screenshots/screenshots/movie-this.PNG)
+![Image of Yaktocat](https://github.com/keensteven/liri-node-app/screenshots/spotify-song.PNG)
 
 ## GITHUB
-
+https://keensteven.github.io/liri-node-app/
+https://github.com/keensteven/liri-node-app.git
