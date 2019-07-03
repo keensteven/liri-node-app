@@ -10,23 +10,18 @@ Liri uses axios to pull from the APIs and Moment.js to parse dates into a readab
 
 ## INSTRUCTIONS
 
-Navigate to the liri.js file and type the following commands in terminal or GitBash.
+Navigate to the liri.js file and type the following commands in terminal or GitBash. Surround the artist, song, or movie name with quotation marks.
 
-   * `node liri concert-this (artist name)` - returns concert information about an artist.
-   * `node liri spotify-this-song (song name)` - returns song and album information about a song.
-   * `node liri movie-this (movie name)` - returns information about a movie.
+   * `node liri concert-this "artist name"` - returns concert information about an artist.
+   * `node liri spotify-this-song "song name"` - returns song and album information about a song.
+   * `node liri movie-this "movie name"` - returns information about a movie.
    * `node liri do-what-it-says` - calls one of liri's commands from a text file.
    
 ## SCREENSHOTS
-![concert-this](screenshots/concert-this.PNG)
-![movie-this](screenshots/movie-this.PNG)
-![spotify-this-song](screenshots/spotify-song.PNG)
-![do-what-it-says](screenshots/do-what-says.PNG)
-![do-what-it-says](https://keensteven.github.io/liri-node-app/screenshots/do-what-says.PNG)
-![do-what-it-says](https://keensteven.github.io/liri-node-app/screenshots/do-what-it-says.png)
-
-
-
+![concert-this](https://keensteven.github.io/liri-node-app/screenshots/concert-this.PNG)
+![movie-this](https://keensteven.github.io/liri-node-app/screenshots/movie-this.PNG)
+![spotify-this-song](https://keensteven.github.io/liri-node-app/screenshots/spotify-song.PNG)
+![do-what-it-says](https://keensteven.github.io/liri-node-app/screenshots/do-what-it-says.PNG)
 
 ## GITHUB
 https://keensteven.github.io/liri-node-app/
