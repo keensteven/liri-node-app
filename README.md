@@ -1,6 +1,6 @@
 ## LIRI
 
-Liri takes phrase typed by the user (via command line) and returns data about the subject they provide. The app uses the following APIs to provide this information.
+Liri takes a phrase typed by the user (via command line) and returns data about the subject they provide. The app uses the following APIs to provide this information.
 
    * Node-Spotify-API
    * Bands in Town Artist Events API
