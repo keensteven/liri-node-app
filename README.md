@@ -12,8 +12,8 @@ Liri uses axios to pull from the APIs and Moment.js to parse dates into a readab
 
 Navigate to the liri.js file and type the following commands in terminal or GitBash. Surround the artist, song, or movie name with quotation marks.
 
-   * `node liri concert-this "artist name"` - returns concert information about an artist.
-   * `node liri spotify-this-song "song name"` - returns song and album information about a song.
+   * `node liri concert-this "artist name"` - returns concert information for an artist.
+   * `node liri spotify-this-song "song name"` - returns song and album information for a song.
    * `node liri movie-this "movie name"` - returns information about a movie.
    * `node liri do-what-it-says` - calls one of liri's commands from a text file.
    
