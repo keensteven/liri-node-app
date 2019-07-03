@@ -21,6 +21,12 @@ Navigate to the liri.js file and type the following commands in terminal or GitB
 ![concert-this](screenshots/concert-this.PNG)
 ![movie-this](screenshots/movie-this.PNG)
 ![spotify-this-song](screenshots/spotify-song.PNG)
+![do-what-it-says](screenshots/do-what-says.PNG)
+![do-what-it-says](https://keensteven.github.io/liri-node-app/screenshots/do-what-says.PNG)
+![do-what-it-says](https://keensteven.github.io/liri-node-app/screenshots/do-what-it-says.png)
+
+
+
 
 ## GITHUB
 https://keensteven.github.io/liri-node-app/

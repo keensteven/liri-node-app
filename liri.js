@@ -52,17 +52,25 @@ function spotifyThisSong(song = "The Sign") {
 // `node liri.js movie-this` If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
 // Loop through all the words in the node argument and handle the inclusion of "+"s
-//   if (i > 2 && i < nodeArgs.length) {
-//     movieName = movieName + "+" + nodeArgs[i];
-//   } else {
-//     movieName += nodeArgs[i];
+
+
 
 if (commandChoice === "movie-this") {
   movieThis(userInput)
 }
 
+
 function movieThis(movie = "Mr. Nobody") {
   var queryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
+
+  // for (var i = 2; i < nodeArgs.length; i++) {
+
+  //   if (i > 2 && i < nodeArgs.length) {
+  //     movie = movie + "+" + nodeArgs[i];
+  //   } else {
+  //     movie += nodeArgs[i];
+  //   }
+  // }
 
   axios.get(queryUrl).then(
       function (response) {
@@ -78,10 +86,10 @@ function movieThis(movie = "Mr. Nobody") {
       console.log(error)
     });
 }
+
 //  `node liri.js do-what-it-says`
 //    * Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
-//      * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
-//      * Edit the text in random.txt to test out the feature for movie-this and concert-this.
+//    * Edit the text in random.txt to test out the feature for movie-this and concert-this.
 
 if (commandChoice === "do-what-it-says") {
 
